@@ -1,0 +1,20 @@
+START TESTCASE
+
+tile02.city_connects(N,N) returned: True
+tile02.city_connects(N,E) returned: True
+tile02.city_connects(N,S) returned: False
+tile02.city_connects(N,W) returned: True
+
+tile02.city_connects(E,N) returned: True
+tile02.city_connects(E,E) returned: True
+tile02.city_connects(E,S) returned: False
+tile02.city_connects(E,W) returned: True
+
+skipping S, because it doesn't have a city...
+
+tile02.city_connects(W,N) returned: True
+tile02.city_connects(W,E) returned: True
+tile02.city_connects(W,S) returned: False
+tile02.city_connects(W,W) returned: True
+
+END TESTCASE

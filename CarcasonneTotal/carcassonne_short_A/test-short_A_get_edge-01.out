@@ -1,0 +1,6 @@
+START TESTCASE
+tile01.get_edge(N) returned: city
+tile01.get_edge(E) returned: grass+road
+tile01.get_edge(S) returned: grass
+tile01.get_edge(W) returned: grass+road
+END TESTCASE

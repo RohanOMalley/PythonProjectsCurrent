@@ -1,0 +1,17 @@
+The first line was: ['There', 'once', 'was', 'a', 'ninja', 'from', 'Nantucket']
+The second line was: ['Who', 'kept', 'all', 'his', 'swords', 'in', 'a', 'bucket']
+
+The combination of both lines had 15 words.
+The combined set of words was: ['There', 'once', 'was', 'a', 'ninja', 'from', 'Nantucket', 'Who', 'kept', 'all', 'his', 'swords', 'in', 'a', 'bucket']
+
+After sorting, the words were: ['Nantucket', 'There', 'Who', 'a', 'a', 'all', 'bucket', 'from', 'his', 'in', 'kept', 'ninja', 'once', 'swords', 'was']
+
+Pairs:
+0: There,Who
+1: once,kept
+2: was,all
+3: a,his
+4: ninja,swords
+5: from,in
+6: Nantucket,a
+

@@ -1,0 +1,14 @@
+The first line was: ['This', 'is', 'a', 'test.']
+The second line was: ['This', 'is', 'only', 'a', 'test.']
+
+The combination of both lines had 9 words.
+The combined set of words was: ['This', 'is', 'a', 'test.', 'This', 'is', 'only', 'a', 'test.']
+
+After sorting, the words were: ['This', 'This', 'a', 'a', 'is', 'is', 'only', 'test.', 'test.']
+
+Pairs:
+0: This,This
+1: is,is
+2: a,only
+3: test.,a
+

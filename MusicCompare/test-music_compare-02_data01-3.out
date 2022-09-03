@@ -1,0 +1,60 @@
+file: n: --- SONG LIST ---
+id=6 info="Baa baa black sheep. Traditional children's rhyme. https://noobnotes.net/song-collections/childrens-nursery-rhymes/" notes=['C', 'C', 'G', 'G', 'A', 'A', 'A', 'A', 'G', 'F', 'F', 'E', 'E', 'D', 'D', 'C', 'G', 'G', 'G', 'F', 'F', 'E', 'E', 'E', 'D', 'C', 'G', 'G', 'G', 'F', 'F', 'F', 'F', 'E', 'E', 'E', 'D']
+id=82 info="Twinkle twinkle little star. Traditional children's rhyme. https://noobnotes.net/twinkle-twinkle-little-star-traditional/" notes=['C', 'C', 'G', 'G', 'A', 'A', 'G', 'F', 'F', 'E', 'E', 'D', 'D', 'C', 'G', 'G', 'F', 'F', 'E', 'E', 'D', 'G', 'G', 'F', 'F', 'E', 'E', 'D', 'C', 'C', 'G', 'G', 'A', 'A', 'G', 'F', 'F', 'E', 'E', 'D', 'D', 'C']
+
+--- COMPARISONS ---
+id_a=6 id_b=82 similarity=0.6818181818181818
+
+--- RESULT ---
+Most similar songs:
+  Baa baa black sheep. Traditional children's rhyme. https://noobnotes.net/song-collections/childrens-nursery-rhymes/
+  Twinkle twinkle little star. Traditional children's rhyme. https://noobnotes.net/twinkle-twinkle-little-star-traditional/
+
+  ids: 6
+  ids: 82
+
+Melodies:
+  C C G G A A A A G F F E E D D C G G G F F E E E D C G G G F F F F E E E D
+  C C G G A A G F F E E D D C G G F F E E D G G F F E E D C C G G A A G F F E E D D C
+
+Set 1
+  A A A
+  A A G
+  A G F
+  C C G
+  C G G
+  D C G
+  D D C
+  E D C
+  E D D
+  E E D
+  E E E
+  F E E
+  F F E
+  F F F
+  G A A
+  G F F
+  G G A
+  G G F
+  G G G
+
+Set 2
+  A A G
+  A G F
+  C C G
+  C G G
+  D C C
+  D C G
+  D D C
+  D G G
+  E D C
+  E D D
+  E D G
+  E E D
+  F E E
+  F F E
+  G A A
+  G F F
+  G G A
+  G G F
+

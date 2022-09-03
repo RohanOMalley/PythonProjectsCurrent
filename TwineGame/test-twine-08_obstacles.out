@@ -1,0 +1,100 @@
+Please give the name of the obstacles filename, or - for none:
+Current position: (0, 0)
+Your history:     [(0, 0)]
+What is your next command?
+
+Current position: (0, 1)
+Your history:     [(0, 0), (0, 1)]
+What is your next command?
+You retrace your steps by one space
+
+Current position: (0, 0)
+Your history:     [(0, 0)]
+What is your next command?
+
+Current position: (1, 0)
+Your history:     [(0, 0), (1, 0)]
+What is your next command?
+You could not move in that direction, because there is an obstacle in the way.
+You stay where you are.
+
+Current position: (1, 0)
+Your history:     [(0, 0), (1, 0)]
+What is your next command?
+
+Current position: (2, 0)
+Your history:     [(0, 0), (1, 0), (2, 0)]
+What is your next command?
+
+Current position: (2, 1)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1)]
+What is your next command?
+
+Current position: (2, 2)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2)]
+What is your next command?
+You could not move in that direction, because there is an obstacle in the way.
+You stay where you are.
+
+Current position: (2, 2)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2)]
+What is your next command?
+
+Current position: (3, 2)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2), (3, 2)]
+What is your next command?
+
+Current position: (3, 3)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2), (3, 2), (3, 3)]
+What is your next command?
+You could not move in that direction, because there is an obstacle in the way.
+You stay where you are.
+
+Current position: (3, 3)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2), (3, 2), (3, 3)]
+What is your next command?
+
+Current position: (3, 4)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2), (3, 2), (3, 3), (3, 4)]
+What is your next command?
+
+Current position: (2, 4)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2), (3, 2), (3, 3), (3, 4), (2, 4)]
+What is your next command?
+You could not move in that direction, because there is an obstacle in the way.
+You stay where you are.
+
+Current position: (2, 4)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2), (3, 2), (3, 3), (3, 4), (2, 4)]
+What is your next command?
+
+Current position: (1, 4)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2), (3, 2), (3, 3), (3, 4), (2, 4), (1, 4)]
+What is your next command?
+
+Current position: (1, 3)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2), (3, 2), (3, 3), (3, 4), (2, 4), (1, 4), (1, 3)]
+What is your next command?
+You could not move in that direction, because there is an obstacle in the way.
+You stay where you are.
+
+Current position: (1, 3)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2), (3, 2), (3, 3), (3, 4), (2, 4), (1, 4), (1, 3)]
+What is your next command?
++-----------+
+|           |
+|      ...  |
+|      +X.  |
+|       ..  |
+|      X.   |
+|     *..   |
+|           |
+|           |
+|           |
+|           |
+|           |
++-----------+
+
+Current position: (1, 3)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2), (3, 2), (3, 3), (3, 4), (2, 4), (1, 4), (1, 3)]
+What is your next command?

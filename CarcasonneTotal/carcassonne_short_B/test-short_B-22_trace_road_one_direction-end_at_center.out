@@ -1,0 +1,12 @@
+START TESTCASE
+This map was randomly generated.  This testcase builds the map, and checks every step.
+The next testcase will start with this map, and try to extend it in many ways.
+
+Creating the initial map...
+Adding the many tiles...
+
+Calling trace_road_one_direction() on a few locations...
+  t_r_o_d( 0, 0,W) returned: [(-1, 0, 1, -1)]
+  t_r_o_d(-2, 0,E) returned: [(-1, 0, 3, -1)]
+  t_r_o_d( 1, 0,W) returned: [(0, 0, 1, 3), (-1, 0, 1, -1)]
+END TESTCASE

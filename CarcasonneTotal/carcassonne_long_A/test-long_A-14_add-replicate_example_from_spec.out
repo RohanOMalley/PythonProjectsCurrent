@@ -1,0 +1,50 @@
+START TESTCASE
+Creating the initial map...
+
+Adding two tiles (with confirm=False); these should never fail...
+  add() returned: True
+  add() returned: True
+  get_all_coords() returned: [(0, 0), (1, 0), (2, 0)]
+  find_map_border() returned: [(-1, 0), (0, -1), (0, 1), (1, -1), (1, 1), (2, -1), (2, 1), (3, 0)]
+
+These two add() attempts should fail
+  add() returned: False
+  add() returned: False
+  get_all_coords() returned: [(0, 0), (1, 0), (2, 0)]
+  find_map_border() returned: [(-1, 0), (0, -1), (0, 1), (1, -1), (1, 1), (2, -1), (2, 1), (3, 0)]
+
+This add() attempt should succeed
+  add() returned: True
+  get_all_coords() returned: [(0, 0), (1, 0), (2, -1), (2, 0)]
+  find_map_border() returned: [(-1, 0), (0, -1), (0, 1), (1, -1), (1, 1), (2, -2), (2, 1), (3, -1), (3, 0)]
+
+This add() attempt should fail
+  add() returned: False
+  get_all_coords() returned: [(0, 0), (1, 0), (2, -1), (2, 0)]
+  find_map_border() returned: [(-1, 0), (0, -1), (0, 1), (1, -1), (1, 1), (2, -2), (2, 1), (3, -1), (3, 0)]
+
+----------------------------
+Dumping the edges of the various tiles:
+
+(0,0)
+  city
+  grass+road
+  grass
+  grass+road
+(1,0)
+  grass
+  grass+road
+  grass
+  grass+road
+(2,-1)
+  grass+road
+  grass
+  grass+road
+  grass
+(2,0)
+  grass
+  grass+road
+  grass+road
+  grass+road
+
+END TESTCASE

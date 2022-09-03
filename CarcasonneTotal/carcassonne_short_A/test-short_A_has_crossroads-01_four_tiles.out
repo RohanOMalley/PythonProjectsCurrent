@@ -1,0 +1,6 @@
+START TESTCASE
+tile01.has_crossroads() returned: False
+tile02.has_crossroads() returned: False
+tile03.has_crossroads() returned: True
+tile04.has_crossroads() returned: False
+END TESTCASE

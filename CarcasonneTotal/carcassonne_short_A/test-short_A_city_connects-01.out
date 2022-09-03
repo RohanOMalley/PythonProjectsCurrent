@@ -1,0 +1,14 @@
+START TESTCASE
+
+tile01.city_connects(N,N) returned: True
+tile01.city_connects(N,E) returned: False
+tile01.city_connects(N,S) returned: False
+tile01.city_connects(N,W) returned: False
+
+skipping E, because it doesn't have a city...
+
+skipping S, because it doesn't have a city...
+
+skipping W, because it doesn't have a city...
+
+END TESTCASE

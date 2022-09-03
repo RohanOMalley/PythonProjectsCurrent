@@ -1,0 +1,6 @@
+START TESTCASE
+tile03.road_get_connection(N) returned: -1
+tile03.road_get_connection(E) returned: -1
+tile03.road_get_connection(S) returned: -1
+tile03.road_get_connection(W) returned: -1
+END TESTCASE

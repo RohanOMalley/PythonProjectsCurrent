@@ -1,0 +1,11 @@
+START TESTCASE
+Creating the initial map...
+
+Adding at (1,1), this should be rejected because it's not adjacent...
+  add() returned: False
+
+get_all_coords() returned: [(0, 0)]
+
+find_map_border() returned: [(-1, 0), (0, -1), (0, 1), (1, 0)]
+
+END TESTCASE

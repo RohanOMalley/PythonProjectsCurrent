@@ -1,0 +1,157 @@
+START TESTCASE
+This map was randomly generated.  This testcase builds the map, and checks every step.
+The next testcase will start with this map, and try to extend it in many ways.
+
+Creating the initial map...
+
+Each of these add() operations should return True...
+  add( 0, 1) returned: True
+  add( 0, 2) returned: True
+  add(-1, 2) returned: True
+  add(-1, 3) returned: True
+  add( 1, 2) returned: True
+  add( 1, 3) returned: True
+  add( 2, 2) returned: True
+  add( 3, 2) returned: True
+  add(-1, 0) returned: True
+  add(-2, 0) returned: True
+  add(-2,-1) returned: True
+  add(-2,-2) returned: True
+  add( 1, 0) returned: True
+  add( 0,-1) returned: True
+  add( 0,-2) returned: True
+  add( 0,-3) returned: True
+  add( 1,-1) returned: True
+  add( 2,-1) returned: True
+  add( 1,-2) returned: True
+  add( 2,-2) returned: True
+
+get_all_coords() returned: [(-2, -2), (-2, -1), (-2, 0), (-1, 0), (-1, 2), (-1, 3), (0, -3), (0, -2), (0, -1), (0, 0), (0, 1), (0, 2), (1, -2), (1, -1), (1, 0), (1, 2), (1, 3), (2, -2), (2, -1), (2, 2), (3, 2)]
+
+find_map_border() returned: [(-3, -2), (-3, -1), (-3, 0), (-2, -3), (-2, 1), (-2, 2), (-2, 3), (-1, -3), (-1, -2), (-1, -1), (-1, 1), (-1, 4), (0, -4), (0, 3), (1, -3), (1, 1), (1, 4), (2, -3), (2, 0), (2, 1), (2, 3), (3, -2), (3, -1), (3, 1), (3, 3), (4, 2)]
+
+Some of these operations will fail and some succeed, but none should change the map because tryOnly=True
+  add( 4, 2) returned: False
+  add( 2, 0) returned: False
+  add(-3,-2) returned: False
+  add(-1,-2) returned: False
+  add( 0,-3) returned: False
+  add(-1, 1) returned: False
+  add(-2, 1) returned: True
+  add(-1, 3) returned: False
+  add( 4, 2) returned: False
+
+get_all_coords() returned: [(-2, -2), (-2, -1), (-2, 0), (-1, 0), (-1, 2), (-1, 3), (0, -3), (0, -2), (0, -1), (0, 0), (0, 1), (0, 2), (1, -2), (1, -1), (1, 0), (1, 2), (1, 3), (2, -2), (2, -1), (2, 2), (3, 2)]
+
+find_map_border() returned: [(-3, -2), (-3, -1), (-3, 0), (-2, -3), (-2, 1), (-2, 2), (-2, 3), (-1, -3), (-1, -2), (-1, -1), (-1, 1), (-1, 4), (0, -4), (0, 3), (1, -3), (1, 1), (1, 4), (2, -3), (2, 0), (2, 1), (2, 3), (3, -2), (3, -1), (3, 1), (3, 3), (4, 2)]
+
+----------------------------
+Dumping the edges of the various tiles:
+
+(-2,-2)
+  city
+  city
+  grass+road
+  grass+road
+(-2,-1)
+  city
+  city
+  city
+  city
+(-2,0)
+  grass+road
+  grass+road
+  city
+  grass
+(-1,0)
+  grass+road
+  grass+road
+  grass+road
+  grass+road
+(-1,2)
+  grass
+  city
+  grass
+  city
+(-1,3)
+  grass
+  grass+road
+  grass
+  grass+road
+(0,-3)
+  city
+  grass
+  city
+  grass
+(0,-2)
+  city
+  city
+  city
+  city
+(0,-1)
+  grass
+  city
+  city
+  grass
+(0,0)
+  city
+  grass+road
+  grass
+  grass+road
+(0,1)
+  city
+  grass
+  city
+  city
+(0,2)
+  city
+  city
+  city
+  city
+(1,-2)
+  grass
+  city
+  grass
+  city
+(1,-1)
+  grass
+  city
+  grass
+  city
+(1,0)
+  grass
+  grass+road
+  grass
+  grass+road
+(1,2)
+  grass
+  city
+  grass
+  city
+(1,3)
+  city
+  grass
+  grass
+  city
+(2,-2)
+  grass
+  city
+  grass
+  city
+(2,-1)
+  grass
+  city
+  grass
+  city
+(2,2)
+  grass
+  grass+road
+  grass+road
+  city
+(3,2)
+  grass+road
+  city
+  grass
+  grass+road
+
+END TESTCASE

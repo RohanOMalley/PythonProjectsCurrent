@@ -1,0 +1,55 @@
+START TESTCASE
+Creating the initial map...
+
+Adding a variety of tiles.  Each one should return True.
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+
+get_all_coords() returned: [(-1, 0), (-1, 1), (0, 0), (0, 1), (1, 1), (1, 2), (2, 1)]
+
+find_map_border() returned: [(-2, 0), (-2, 1), (-1, -1), (-1, 2), (0, -1), (0, 2), (1, 0), (1, 3), (2, 0), (2, 2), (3, 1)]
+
+----------------------------
+Dumping the edges of the various tiles:
+
+(-1,0)
+  grass
+  grass+road
+  grass+road
+  grass+road
+(-1,1)
+  city
+  city
+  grass
+  grass
+(0,0)
+  city
+  grass+road
+  grass
+  grass+road
+(0,1)
+  city
+  city
+  city
+  city
+(1,1)
+  grass
+  city
+  grass
+  city
+(1,2)
+  city
+  grass+road
+  grass
+  grass+road
+(2,1)
+  city
+  city
+  grass
+  city
+
+END TESTCASE

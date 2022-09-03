@@ -1,0 +1,6 @@
+START TESTCASE
+tile01.edge_has_road(N) returned: False
+tile01.edge_has_road(E) returned: True
+tile01.edge_has_road(S) returned: False
+tile01.edge_has_road(W) returned: True
+END TESTCASE

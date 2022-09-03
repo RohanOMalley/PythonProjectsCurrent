@@ -1,0 +1,6 @@
+START TESTCASE
+tile03.get_edge(N) returned: grass+road
+tile03.get_edge(E) returned: grass+road
+tile03.get_edge(S) returned: grass+road
+tile03.get_edge(W) returned: grass+road
+END TESTCASE

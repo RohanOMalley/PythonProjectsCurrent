@@ -1,0 +1,11 @@
+
+def foo(x):
+    print(f"FOO: x={x}")
+    return x[::-1]
+
+def bar(x,y,z):
+    print(f"BAR: x={x}   y={y}   z={z}")
+    return y*2+","+x+","+z*3
+
+quit
+

@@ -1,0 +1,10 @@
+--- COMPARISON: ---
+data1 / data2: 0.4
+data2 / data1: 0.4
+data1 / data3: 0.0
+data3 / data1: 0.0
+data2 / data3: 0.007874015748031496
+data3 / data2: 0.007874015748031496
+
+
+TESTCASE COMPLETED

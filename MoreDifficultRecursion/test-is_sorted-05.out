@@ -1,0 +1,6 @@
+Testing is_sorted()...
+
+Input list: ('bdz', -50) -> ('bgt', 8) -> ('crl', -25) -> ('dyx', 37) -> ('qwi', 85)
+retval: True
+
+TESTCASE COMPLETED

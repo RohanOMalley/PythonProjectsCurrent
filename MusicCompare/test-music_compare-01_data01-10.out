@@ -1,0 +1,79 @@
+file: n: --- SONG LIST ---
+id=6 info="Baa baa black sheep. Traditional children's rhyme. https://noobnotes.net/song-collections/childrens-nursery-rhymes/" notes=['C', 'C', 'G', 'G', 'A', 'A', 'A', 'A', 'G', 'F', 'F', 'E', 'E', 'D', 'D', 'C', 'G', 'G', 'G', 'F', 'F', 'E', 'E', 'E', 'D', 'C', 'G', 'G', 'G', 'F', 'F', 'F', 'F', 'E', 'E', 'E', 'D']
+id=82 info="Twinkle twinkle little star. Traditional children's rhyme. https://noobnotes.net/twinkle-twinkle-little-star-traditional/" notes=['C', 'C', 'G', 'G', 'A', 'A', 'G', 'F', 'F', 'E', 'E', 'D', 'D', 'C', 'G', 'G', 'F', 'F', 'E', 'E', 'D', 'G', 'G', 'F', 'F', 'E', 'E', 'D', 'C', 'C', 'G', 'G', 'A', 'A', 'G', 'F', 'F', 'E', 'E', 'D', 'D', 'C']
+
+--- COMPARISONS ---
+id_a=6 id_b=82 similarity=0.05660377358490566
+
+--- RESULT ---
+Most similar songs:
+  Baa baa black sheep. Traditional children's rhyme. https://noobnotes.net/song-collections/childrens-nursery-rhymes/
+  Twinkle twinkle little star. Traditional children's rhyme. https://noobnotes.net/twinkle-twinkle-little-star-traditional/
+
+  ids: 6
+  ids: 82
+
+Melodies:
+  C C G G A A A A G F F E E D D C G G G F F E E E D C G G G F F F F E E E D
+  C C G G A A G F F E E D D C G G F F E E D G G F F E E D C C G G A A G F F E E D D C
+
+Set 1
+  A A A A G F F E E D
+  A A A G F F E E D D
+  A A G F F E E D D C
+  A G F F E E D D C G
+  C C G G A A A A G F
+  C G G A A A A G F F
+  C G G G F F E E E D
+  C G G G F F F F E E
+  D C G G G F F E E E
+  D C G G G F F F F E
+  D D C G G G F F E E
+  E D C G G G F F F F
+  E D D C G G G F F E
+  E E D C G G G F F F
+  E E D D C G G G F F
+  E E E D C G G G F F
+  F E E D D C G G G F
+  F E E E D C G G G F
+  F F E E D D C G G G
+  F F E E E D C G G G
+  G A A A A G F F E E
+  G F F E E D D C G G
+  G F F E E E D C G G
+  G G A A A A G F F E
+  G G F F E E E D C G
+  G G F F F F E E E D
+  G G G F F E E E D C
+  G G G F F F F E E E
+
+Set 2
+  A A G F F E E D D C
+  A G F F E E D D C G
+  C C G G A A G F F E
+  C G G A A G F F E E
+  C G G F F E E D G G
+  D C C G G A A G F F
+  D C G G F F E E D G
+  D D C G G F F E E D
+  D G G F F E E D C C
+  E D C C G G A A G F
+  E D D C G G F F E E
+  E D G G F F E E D C
+  E E D C C G G A A G
+  E E D D C G G F F E
+  E E D G G F F E E D
+  F E E D C C G G A A
+  F E E D D C G G F F
+  F E E D G G F F E E
+  F F E E D C C G G A
+  F F E E D D C G G F
+  F F E E D G G F F E
+  G A A G F F E E D D
+  G F F E E D C C G G
+  G F F E E D D C G G
+  G F F E E D G G F F
+  G G A A G F F E E D
+  G G F F E E D C C G
+  G G F F E E D G G F
+

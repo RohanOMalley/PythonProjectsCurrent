@@ -1,0 +1,13 @@
+TESTING A 20x20 GRID.  DO THEY ALL HAVE SEPARATE NAMES?
+
+Calling build_grid(20,20)...
+
+Collecting all of the rooms into a list...
+
+Extracting all of the names from the node list, into a set...
+
+Checking for duplicates.  If there are no duplicates, then the size of the name set should be the same as the room list.
+  room count: 400
+  name count: 400
+
+TESTCASE COMPLETED

@@ -1,0 +1,78 @@
+START TESTCASE
+
+This testcase calls add() many times, trying tiles 1 through 12.
+It tries to add each tile in all four legit locations.  However,
+it will pass the tryOnly=True parameter each time, so the map should
+never change.
+
+Creating the initial map...
+
+add( 0, 1, tile01, tryOnly=True) returned: False
+add( 0,-1, tile01, tryOnly=True) returned: False
+add( 1, 0, tile01, tryOnly=True) returned: True
+add(-1, 0, tile01, tryOnly=True) returned: True
+
+add( 0, 1, tile02, tryOnly=True) returned: False
+add( 0,-1, tile02, tryOnly=True) returned: False
+add( 1, 0, tile02, tryOnly=True) returned: False
+add(-1, 0, tile02, tryOnly=True) returned: False
+
+add( 0, 1, tile03, tryOnly=True) returned: False
+add( 0,-1, tile03, tryOnly=True) returned: False
+add( 1, 0, tile03, tryOnly=True) returned: True
+add(-1, 0, tile03, tryOnly=True) returned: True
+
+add( 0, 1, tile04, tryOnly=True) returned: False
+add( 0,-1, tile04, tryOnly=True) returned: False
+add( 1, 0, tile04, tryOnly=True) returned: False
+add(-1, 0, tile04, tryOnly=True) returned: True
+
+add( 0, 1, tile05, tryOnly=True) returned: True
+add( 0,-1, tile05, tryOnly=True) returned: False
+add( 1, 0, tile05, tryOnly=True) returned: False
+add(-1, 0, tile05, tryOnly=True) returned: False
+
+add( 0, 1, tile06, tryOnly=True) returned: False
+add( 0,-1, tile06, tryOnly=True) returned: False
+add( 1, 0, tile06, tryOnly=True) returned: False
+add(-1, 0, tile06, tryOnly=True) returned: False
+
+add( 0, 1, tile07, tryOnly=True) returned: False
+add( 0,-1, tile07, tryOnly=True) returned: True
+add( 1, 0, tile07, tryOnly=True) returned: False
+add(-1, 0, tile07, tryOnly=True) returned: False
+
+add( 0, 1, tile08, tryOnly=True) returned: False
+add( 0,-1, tile08, tryOnly=True) returned: True
+add( 1, 0, tile08, tryOnly=True) returned: False
+add(-1, 0, tile08, tryOnly=True) returned: False
+
+add( 0, 1, tile09, tryOnly=True) returned: False
+add( 0,-1, tile09, tryOnly=True) returned: False
+add( 1, 0, tile09, tryOnly=True) returned: False
+add(-1, 0, tile09, tryOnly=True) returned: False
+
+add( 0, 1, tile10, tryOnly=True) returned: False
+add( 0,-1, tile10, tryOnly=True) returned: True
+add( 1, 0, tile10, tryOnly=True) returned: True
+add(-1, 0, tile10, tryOnly=True) returned: True
+
+add( 0, 1, tile11, tryOnly=True) returned: False
+add( 0,-1, tile11, tryOnly=True) returned: False
+add( 1, 0, tile11, tryOnly=True) returned: False
+add(-1, 0, tile11, tryOnly=True) returned: True
+
+add( 0, 1, tile12, tryOnly=True) returned: False
+add( 0,-1, tile12, tryOnly=True) returned: False
+add( 1, 0, tile12, tryOnly=True) returned: True
+add(-1, 0, tile12, tryOnly=True) returned: False
+
+----------------------------------
+All of the add() calls have completed.  Because we passed tryOnly=True
+every time, no new tiles should have been added.  Testing this...
+
+get_all_coords() returned: [(0, 0)]
+
+find_map_border() returned: [(-1, 0), (0, -1), (0, 1), (1, 0)]
+
+END TESTCASE

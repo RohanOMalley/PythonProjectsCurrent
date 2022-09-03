@@ -1,0 +1,37 @@
+Please give the name of the obstacles filename, or - for none:
+Current position: (0, 0)
+Your history:     [(0, 0)]
+What is your next command?
+
+Current position: (1, 0)
+Your history:     [(0, 0), (1, 0)]
+What is your next command?
+
+Current position: (2, 0)
+Your history:     [(0, 0), (1, 0), (2, 0)]
+What is your next command?
+
+Current position: (2, 1)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1)]
+What is your next command?
+
+Current position: (2, 2)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2)]
+What is your next command?
++-----------+
+|           |
+|           |
+|           |
+|      X+   |
+|       .   |
+|     *..   |
+|           |
+|           |
+|           |
+|           |
+|           |
++-----------+
+
+Current position: (2, 2)
+Your history:     [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2)]
+What is your next command?

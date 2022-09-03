@@ -1,0 +1,78 @@
+Please give the name of the obstacles filename, or - for none:
+Current position: (0, 0)
+Your history:     [(0, 0)]
+What is your next command?
+You do nothing.
+
+Current position: (0, 0)
+Your history:     [(0, 0)]
+What is your next command?
+You do nothing.
+
+Current position: (0, 0)
+Your history:     [(0, 0)]
+What is your next command?
+ERROR: Invalid command: asdf
+
+Current position: (0, 0)
+Your history:     [(0, 0)]
+What is your next command?
+ERROR: Invalid command: foobar
+
+Current position: (0, 0)
+Your history:     [(0, 0)]
+What is your next command?
+You do nothing.
+
+Current position: (0, 0)
+Your history:     [(0, 0)]
+What is your next command?
+
+Current position: (0, 1)
+Your history:     [(0, 0), (0, 1)]
+What is your next command?
+
+Current position: (0, 2)
+Your history:     [(0, 0), (0, 1), (0, 2)]
+What is your next command?
+
+Current position: (-1, 2)
+Your history:     [(0, 0), (0, 1), (0, 2), (-1, 2)]
+What is your next command?
+
+Current position: (-2, 2)
+Your history:     [(0, 0), (0, 1), (0, 2), (-1, 2), (-2, 2)]
+What is your next command?
+
+Current position: (-2, 1)
+Your history:     [(0, 0), (0, 1), (0, 2), (-1, 2), (-2, 2), (-2, 1)]
+What is your next command?
+
+Current position: (-2, 0)
+Your history:     [(0, 0), (0, 1), (0, 2), (-1, 2), (-2, 2), (-2, 1), (-2, 0)]
+What is your next command?
+
+Current position: (-1, 0)
+Your history:     [(0, 0), (0, 1), (0, 2), (-1, 2), (-2, 2), (-2, 1), (-2, 0), (-1, 0)]
+What is your next command?
+
+Current position: (0, 0)
+Your history:     [(0, 0), (0, 1), (0, 2), (-1, 2), (-2, 2), (-2, 1), (-2, 0), (-1, 0), (0, 0)]
+What is your next command?
++-----------+
+|           |
+|           |
+|           |
+|   ...     |
+|   . .     |
+|   ..+     |
+|           |
+|           |
+|           |
+|           |
+|           |
++-----------+
+
+Current position: (0, 0)
+Your history:     [(0, 0), (0, 1), (0, 2), (-1, 2), (-2, 2), (-2, 1), (-2, 0), (-1, 0), (0, 0)]
+What is your next command?

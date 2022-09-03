@@ -1,0 +1,6 @@
+START TESTCASE
+tile01.edge_has_city(N) returned: True
+tile01.edge_has_city(E) returned: False
+tile01.edge_has_city(S) returned: False
+tile01.edge_has_city(W) returned: False
+END TESTCASE

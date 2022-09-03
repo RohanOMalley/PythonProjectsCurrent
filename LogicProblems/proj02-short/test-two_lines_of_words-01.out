@@ -1,0 +1,23 @@
+The first line was: ['Four', 'score', 'and', 'seven', 'years', 'ago', 'our', 'fathers', 'brought', 'forth', 'on', 'this', 'continent', 'a']
+The second line was: ['new', 'nation,', 'conceived', 'in', 'liberty,', 'and', 'dedicated', 'to', 'the', 'proposition', 'that', 'all', 'men']
+
+The combination of both lines had 27 words.
+The combined set of words was: ['Four', 'score', 'and', 'seven', 'years', 'ago', 'our', 'fathers', 'brought', 'forth', 'on', 'this', 'continent', 'a', 'new', 'nation,', 'conceived', 'in', 'liberty,', 'and', 'dedicated', 'to', 'the', 'proposition', 'that', 'all', 'men']
+
+After sorting, the words were: ['Four', 'a', 'ago', 'all', 'and', 'and', 'brought', 'conceived', 'continent', 'dedicated', 'fathers', 'forth', 'in', 'liberty,', 'men', 'nation,', 'new', 'on', 'our', 'proposition', 'score', 'seven', 'that', 'the', 'this', 'to', 'years']
+
+Pairs:
+0: Four,new
+1: score,nation,
+2: and,conceived
+3: seven,in
+4: years,liberty,
+5: ago,and
+6: our,dedicated
+7: fathers,to
+8: brought,the
+9: forth,proposition
+10: on,that
+11: this,all
+12: continent,men
+

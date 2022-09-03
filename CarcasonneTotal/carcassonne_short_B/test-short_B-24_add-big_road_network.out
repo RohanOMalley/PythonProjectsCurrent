@@ -1,0 +1,111 @@
+START TESTCASE
+This map was randomly generated.  This testcase builds the map, and checks every step.
+The next testcase will start with this map, and try to extend it in many ways.
+
+Creating the initial map...
+Adding the many tiles...
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+  add() returned: True
+
+get_all_coords() returned: [(-3, 2), (-2, 1), (-2, 2), (-1, -1), (-1, 2), (-1, 3), (0, -1), (0, 0), (0, 1), (0, 2), (1, 0), (1, 2), (2, -1), (2, 0), (2, 2), (3, 0)]
+
+find_map_border() returned: [(-4, 2), (-3, 1), (-3, 3), (-2, -1), (-2, 0), (-2, 3), (-1, -2), (-1, 0), (-1, 1), (-1, 4), (0, -2), (0, 3), (1, -1), (1, 1), (1, 3), (2, -2), (2, 1), (2, 3), (3, -1), (3, 1), (3, 2), (4, 0)]
+
+----------------------------
+Dumping the edges of the various tiles:
+
+(-3,2)
+  city
+  grass+road
+  grass+road
+  city
+(-2,1)
+  grass
+  grass+road
+  grass+road
+  city
+(-2,2)
+  grass
+  grass+road
+  grass
+  grass+road
+(-1,-1)
+  grass
+  grass+road
+  city
+  grass+road
+(-1,2)
+  grass+road
+  grass
+  city
+  grass+road
+(-1,3)
+  grass+road
+  city
+  grass+road
+  grass+road
+(0,-1)
+  grass
+  grass+road
+  grass+road
+  grass+road
+(0,0)
+  city
+  grass+road
+  grass
+  grass+road
+(0,1)
+  grass+road
+  grass+road
+  city
+  grass+road
+(0,2)
+  grass
+  grass+road
+  grass+road
+  grass
+(1,0)
+  city
+  grass+road
+  grass+road
+  grass+road
+(1,2)
+  grass+road
+  grass+road
+  city
+  grass+road
+(2,-1)
+  grass+road
+  grass
+  grass+road
+  city
+(2,0)
+  city
+  grass+road
+  grass+road
+  grass+road
+(2,2)
+  grass+road
+  grass
+  city
+  grass+road
+(3,0)
+  city
+  city
+  grass+road
+  grass+road
+
+END TESTCASE

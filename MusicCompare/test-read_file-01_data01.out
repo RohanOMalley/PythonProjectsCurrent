@@ -1,0 +1,6 @@
+INPUT FILE: data01.txt
+
+(6, "Baa baa black sheep. Traditional children's rhyme. https://noobnotes.net/song-collections/childrens-nursery-rhymes/", ['C', 'C', 'G', 'G', 'A', 'A', 'A', 'A', 'G', 'F', 'F', 'E', 'E', 'D', 'D', 'C', 'G', 'G', 'G', 'F', 'F', 'E', 'E', 'E', 'D', 'C', 'G', 'G', 'G', 'F', 'F', 'F', 'F', 'E', 'E', 'E', 'D'])
+(82, "Twinkle twinkle little star. Traditional children's rhyme. https://noobnotes.net/twinkle-twinkle-little-star-traditional/", ['C', 'C', 'G', 'G', 'A', 'A', 'G', 'F', 'F', 'E', 'E', 'D', 'D', 'C', 'G', 'G', 'F', 'F', 'E', 'E', 'D', 'G', 'G', 'F', 'F', 'E', 'E', 'D', 'C', 'C', 'G', 'G', 'A', 'A', 'G', 'F', 'F', 'E', 'E', 'D', 'D', 'C'])
+
+TESTCASE COMPLETED

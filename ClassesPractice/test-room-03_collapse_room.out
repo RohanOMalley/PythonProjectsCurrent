@@ -1,0 +1,27 @@
+TESTING A 6x4 GRID.
+
+Calling build_grid(6,4)...
+
+Finding the room 3 east, 2 north from the retval...
+
+Finding the 4 neighbors of that object...
+
+Checking the incoming links to the target room...
+
+Collapsing the target room...
+
+Checking the links inside the target room...
+  North: None
+  South: None
+  West:  None
+  East:  None
+
+Checking the links that *used* to come into the target room...
+  North room, headed South: None
+  South room, headed North: None
+  West  room, headed East:  None
+  East  room, headed West:  None
+
+Checking a few more links, using the links in the rooms around the target...
+
+TESTCASE COMPLETED

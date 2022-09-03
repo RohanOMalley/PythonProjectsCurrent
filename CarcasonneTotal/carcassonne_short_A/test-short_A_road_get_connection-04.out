@@ -1,0 +1,6 @@
+START TESTCASE
+skipping N, because it doesn't have a road...
+tile04.road_get_connection(E) returned: 2
+tile04.road_get_connection(S) returned: 1
+skipping W, because it doesn't have a road...
+END TESTCASE

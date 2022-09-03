@@ -1,0 +1,12 @@
+START TESTCASE
+Creating the initial map...
+
+This is the second example city from the Project Overview video...
+
+Calling trace_city() from various start points:
+  t_c(0,3,W) returned: (False, [(0, 2, 0), (0, 2, 1), (0, 2, 2), (0, 2, 3), (0, 3, 1), (0, 3, 2), (0, 3, 3), (1, 2, 0), (1, 2, 3), (1, 3, 2), (1, 3, 3)])
+  t_c(1,2,W) returned: (False, [(0, 2, 0), (0, 2, 1), (0, 2, 2), (0, 2, 3), (0, 3, 1), (0, 3, 2), (0, 3, 3), (1, 2, 0), (1, 2, 3), (1, 3, 2), (1, 3, 3)])
+  t_c(1,2,N) returned: (False, [(0, 2, 0), (0, 2, 1), (0, 2, 2), (0, 2, 3), (0, 3, 1), (0, 3, 2), (0, 3, 3), (1, 2, 0), (1, 2, 3), (1, 3, 2), (1, 3, 3)])
+  t_c(0,0,N) returned: (False, [(0, 0, 0)])
+
+END TESTCASE

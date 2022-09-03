@@ -1,0 +1,10 @@
+INPUT FILE: data03.txt
+N:          4
+
+--- COMPARING: first song to the last one ---
+id_a = 8
+id_a = 87
+
+comparison: 0.9032258064516129
+
+TESTCASE COMPLETED

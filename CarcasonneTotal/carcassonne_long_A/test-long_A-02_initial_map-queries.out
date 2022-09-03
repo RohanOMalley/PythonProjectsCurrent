@@ -1,0 +1,21 @@
+START TESTCASE
+Creating the initial map...
+
+get_all_coords() returned:
+  type           : <class 'set'>
+  values (sorted): [(0, 0)]
+
+find_map_border() returned:
+  type           : <class 'set'>
+  values (sorted): [(-1, 0), (0, -1), (0, 1), (1, 0)]
+
+*****************************
+* NOTE TO STUDENT           *
+*                           *
+* The rest of the testcases *
+* will always sort the vals *
+* above, so that ordering   *
+* will not cause testcase   *
+* failure.                  *
+*****************************
+END TESTCASE

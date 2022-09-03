@@ -1,0 +1,6 @@
+START TESTCASE
+tile02.get_edge(N) returned: city
+tile02.get_edge(E) returned: city
+tile02.get_edge(S) returned: grass
+tile02.get_edge(W) returned: city
+END TESTCASE

@@ -1,0 +1,21 @@
+START TESTCASE
+Creating the initial map...
+
+Attempting to overwrite the origin with another copy of tile01, this should be rejected...
+  add() returned: False
+Attempting to overwrite the origin with another copy of tile02, this should be rejected...
+  add() returned: False
+Attempting to overwrite the origin with another copy of tile08, this should be rejected...
+  add() returned: False
+
+The sides of (0,0) are now:
+  city
+  grass+road
+  grass
+  grass+road
+
+get_all_coords() returned: [(0, 0)]
+
+find_map_border() returned: [(-1, 0), (0, -1), (0, 1), (1, 0)]
+
+END TESTCASE

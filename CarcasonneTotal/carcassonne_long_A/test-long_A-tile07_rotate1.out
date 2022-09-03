@@ -1,0 +1,29 @@
+START TESTCASE: Testing all methods for tile07, rotated once
+get_edge(N) returned: city
+get_edge(E) returned: grass
+get_edge(S) returned: city
+get_edge(W) returned: grass
+
+edge_has_road() and edge_has_city():
+  False True
+  False False
+  False True
+  False False
+
+has_crossroads(): False
+
+Road connections:
+
+City connections:
+  city_connects(N,N): True
+  city_connects(N,E): False
+  city_connects(N,S): False
+  city_connects(N,W): False
+--
+  city_connects(S,N): False
+  city_connects(S,E): False
+  city_connects(S,S): True
+  city_connects(S,W): False
+--
+
+END TESTCASE

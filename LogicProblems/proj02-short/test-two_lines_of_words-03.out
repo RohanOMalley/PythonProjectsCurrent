@@ -1,0 +1,10 @@
+The first line was: []
+The second line was: ['How', 'did', 'you', 'do', 'with', 'blank', 'lines?']
+
+The combination of both lines had 7 words.
+The combined set of words was: ['How', 'did', 'you', 'do', 'with', 'blank', 'lines?']
+
+After sorting, the words were: ['How', 'blank', 'did', 'do', 'lines?', 'with', 'you']
+
+Pairs:
+

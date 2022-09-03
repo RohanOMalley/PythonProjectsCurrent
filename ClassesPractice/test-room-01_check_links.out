@@ -1,0 +1,13 @@
+TESTING A SIMPLE 3x5 GRID.  DO ALL OF THE LINKS POINT AS I EXPECT?
+
+Calling build_grid(3,5)...
+
+Extracting all of the rooms into 15 different variables.  If any of these fail because of a None pointer, then it means that your grid is too small.
+
+Checking to make sure that all of the edge links are None.  These use assert statements ... so any failure here will be repored as an AssertionError; if you see that, then you should figure out which line failed, and look into that issue.
+
+Checking the *internal* links, to ensure that they are all correct.  Just like the previous test, this uses assertions.
+
+No errors detectedd.
+
+TESTCASE COMPLETED

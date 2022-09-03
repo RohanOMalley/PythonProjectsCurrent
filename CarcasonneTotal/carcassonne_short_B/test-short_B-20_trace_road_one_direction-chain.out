@@ -1,0 +1,13 @@
+START TESTCASE
+Creating the initial map...
+
+Adding tile01 at (2,0), this should fail because it's too far...
+Adding tile01 in a long horizontal line, these should all work, including at (2,0)...
+
+Calling trace_road_one_direction() from various start points:
+  t_r_o_d(0,0,E) returned: [(1, 0, 3, 1), (2, 0, 3, 1), (3, 0, 3, 1), (4, 0, 3, 1)]
+  t_r_o_d(0,0,W) returned: [(-1, 0, 1, 3), (-2, 0, 1, 3), (-3, 0, 1, 3), (-4, 0, 1, 3)]
+  t_r_o_d(1,0,E) returned: [(2, 0, 3, 1), (3, 0, 3, 1), (4, 0, 3, 1)]
+  t_r_o_d(2,0,E) returned: [(3, 0, 3, 1), (4, 0, 3, 1)]
+  t_r_o_d(3,0,E) returned: [(4, 0, 3, 1)]
+END TESTCASE
